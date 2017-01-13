@@ -8,8 +8,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>title</title>
-		<link rel="style" href="style.css" type="text/css">
+		<title>Victoria Dorn - HW Assignment: HTML/CSS</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
 	</head>
 	
 	<body>
@@ -27,7 +27,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class = "even">
+				<tr class="even">
 					<td><em>Ajani</em></td>
 					<td>N/A</td>
 					<td>Nico Bolas</td>
@@ -37,7 +37,7 @@
 				</tr>
 			</tbody>
 			<tbody>
-				<tr class = "odd">
+				<tr class="odd">
 					<td><em>Nicol Bolas</em></td>
 					<td>Nicol Bolas</td>
 					<td>N/A</td>
@@ -47,7 +47,7 @@
 				</tr>
 			</tbody>
 			<tbody>
-				<tr class = "even">
+				<tr class="even">
 					<td><em>Chandra</em></td>
 					<td>Ajani</td>
 					<td>Nicol Bolas</td>
@@ -57,7 +57,7 @@
 				</tr>
 			</tbody>
 			<tbody>
-				<tr class = "odd">
+				<tr class="odd">
 					<td><em>Jace</em></td>
 					<td>Jace</td>
 					<td>Nicol Bolas</td>
@@ -67,7 +67,7 @@
 				</tr>
 			</tbody>
 			<tbody>
-				<tr class = "even">
+				<tr class="even">
 					<td><em>Gideon</em></td>
 					<td>Ajani</td>
 					<td>Nicol Bolas</td>
@@ -91,20 +91,21 @@
 		<li>Magic: The Gathering</li>
 		<li>Music</li>
 	</ul>
-	</br>
 	
 	<!--div inside of a div -->
 	<div id = "box" class = "outer-content">
 		<div class = "inner-content">Here is some content.</div>
 	</div>
+	</br>
 	
 	<!--form for get -->
+	<!--Referenced code from http://eecs.oregonstate.edu/ecampus-video/CS290/core-content/html-css/html-forms.html -->
 	<form action = "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method = "get">
 		<fieldset>
 			<legend> Some GET data</legend>
 			<fieldset>
 				<label>Text:
-					<input type="text" name="text" size="30" maxlength="100">
+					<input type="text" name="text_input" size="30" maxlength="100">
 				</label>
 			</fieldset>
 			
@@ -112,7 +113,7 @@
 			
 			<fieldset>
 			<label>Number:
-				<input type="number" name="number" size="30" maxlength="100">
+				<input type="number" name="numerical_input" size="30" maxlength="100">
 			</label>
 			</fieldset>
 			
@@ -120,7 +121,7 @@
 			
 			<fieldset>
 			<label>Password:
-				<input type="password" name="password" size="30" maxlength="100">
+				<input type="password" name="password_input" size="30" maxlength="100">
 			</label>
 			</fieldset>
 			<br />

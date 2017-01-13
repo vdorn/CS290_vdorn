@@ -1,8 +1,9 @@
-// Name: Victoria Dorn
+/* Name: Victoria Dorn
 // Class: CS290-400
 // Email: dornv@oregonstate.edu
 // Assignment: HW Assignment: HTML/CSS
 // Date: 01/13/2017
+*/
 
 td, th{
   border-style:solid;
@@ -12,11 +13,20 @@ table{
   border-style:solid;
 }
 
+.even{
+	background-color: #9befe1;
+}
+
+.odd{
+	background-color: #b7ef9b;
+}
+
 #box{
   width: 75%;
 }
 .outer-content{
-	position:absolute;
+	position:relative;
+	left: 0;
 	padding: 20px;
 	background-color: pink;
 }
@@ -25,13 +35,4 @@ table{
 	color: white;
 	text-align: center;
 	background-color: blue;
-	height: 50%;
-}
-
-.even{
-	background-color: #9befe1;
-}
-
-.odd{
-	background-color: #b7ef9b;
 }
